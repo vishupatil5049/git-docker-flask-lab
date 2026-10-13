@@ -13,7 +13,7 @@ products = [
 @app.route("/")
 def home():
     return jsonify({
-        "message": "Welcome to the Flask Products API",
+       "message": "Welcome to the Main Branch API",
         "status": "running",
         "description": "A REST API for managing products"
     })
