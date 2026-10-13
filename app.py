@@ -10,11 +10,12 @@ products = [
 ]
 
 
-@app.route("/", methods=["GET"])
+@app.route("/")
 def home():
     return jsonify({
         "message": "Welcome to the Flask Products API",
-        "status": "running"
+        "status": "running",
+        "description": "A REST API for managing products"
     })
 
 
